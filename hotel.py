@@ -11,6 +11,8 @@ class HotelManagementSystem:
         self.root=root
         self.root.title("Hotel Management System")
         self.root.geometry("1920x1080+0+0")
+        self.root.minsize(1920,1080)
+        self.root.maxsize(1920,1080)
 
         # ========FIRST image======
         img1=Image.open(r"D:\HOTEL MANAGEMENT SYSTEM\images\1st pic.jpg")
@@ -132,4 +134,3 @@ if __name__=="__main__":
     root=Tk()
     obj=HotelManagementSystem(root)
     root.mainloop()
-        
