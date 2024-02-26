@@ -10,7 +10,8 @@ class Cust_Win:
                self.root=root
                self.root.title("CUSTOMER MANAGEMENT")
                self.root.geometry("1662x850+255+225")
-
+               self.root.minsize(1662,850)
+               self.root.maxsize(1662,850)
         #        ==========variables===========
                self.var_ref=StringVar()
                x=random.randint(1000,9999)
