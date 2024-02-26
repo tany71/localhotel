@@ -9,7 +9,7 @@ from tkinter import NO, NO, YES, YES, messagebox
 class HotelManagementSystem:
     def __init__(self,root):
         self.root=root
-        self.root.title("Hotel Management System")
+        self.root.title("INN SIGHT - Hotel Management System")
         self.root.geometry("1920x1080+0+0")
         self.root.minsize(1920,1080)
         self.root.maxsize(1920,1080)
@@ -122,11 +122,6 @@ class HotelManagementSystem:
     # def back_to_login(self):
     #     self.new_window=Toplevel(self.root)
     #     self.k=Login_Window(self.new_window)
-
-
-
-
-
 
 
 
