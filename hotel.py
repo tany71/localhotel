@@ -31,8 +31,8 @@ class HotelManagementSystem:
         lblimg.place(x=0,y=0,width=250,height=140)
 
         # =========title =======
-        lbl_title=Label(self.root,text="HOTEL MANAGEMENT SYSTEM",font=("times new roman",40,"bold"),bg="black",fg="gold",bd=4,relief=RIDGE)
-        lbl_title.place(x=0,y=140,width=1920,height=50)
+        lbl_title=Label(self.root,text="INN OVERSIGHT - Hotel Management System",font=("times new roman",35,"bold"),bg="black",fg="gold",bd=4,relief=RIDGE)
+        lbl_title.place(x=0,y=130,width=1920,height=60)
 
 
         # =========main frame ========
@@ -104,7 +104,7 @@ class HotelManagementSystem:
     def cust_details(self):
         self.new_window=Toplevel(self.root)
         self.k=Cust_Win(self.new_window)
- 
+
 
 
 
